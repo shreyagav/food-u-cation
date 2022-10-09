@@ -1,0 +1,27 @@
+section.success{
+    background: url(../img/contactus.png) no-repeat center center;
+    background-size: cover;
+}
+
+
+.home {
+    width: 95%;
+    padding-top:25%;
+}
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+@media only screen and (min-width: 768px) {
+    .home {
+        width: 50%;
+        padding-top:0%;
+    }
+}
+
+hr.star-light:after {
+    background-color: #C6C9CC;
+}

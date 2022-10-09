@@ -1,0 +1,43 @@
+section.success{
+    background: url(../img/education.png) no-repeat center center;
+    background-size: cover;
+}
+
+
+.home {
+    width: 95%;
+    padding-top:25%;
+}
+
+@media only screen and (min-width: 768px) {
+    .home {
+        width: 50%;
+        padding-top:0%;
+    }
+}
+
+hr.star-light:after {
+    background-color: #4F575A;
+}
+
+p1 {
+    padding-top: 10px;
+    font-family: Anton;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-transform: none ;
+
+}
+
+p2 {
+    padding-top: 10px;
+    font-family: Rancho;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-transform: none ;
+
+}

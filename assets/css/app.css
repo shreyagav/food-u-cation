@@ -1,0 +1,144 @@
+.navbar-nav>li>a {
+    padding-top: 9px;
+}
+homeh1  {
+    font-family: 'Oleo Script', serif;
+}
+
+.li.ul.dropdown-menu{
+    margin-right: -126.581px;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: 15.4px;
+    text-transform: none ;
+}
+i1 {
+    padding-top: 10px;
+    align-content: space-between;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-transform: none ;
+}
+p {
+    padding-top: 10px;
+    align-content: center;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-transform: none ;
+
+}
+a:link {
+    color: lightskyblue;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: lightgreen;
+}
+a:active {
+    color: red;
+}
+
+d {
+    padding-top: 10px;
+    align-content: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-transform: none ;
+
+}
+
+p1 {
+    padding-top: 60px;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-transform: none ;
+
+}
+
+
+.dropdown-menu>li>a {
+
+    line-height: 2;
+
+}
+.navbar-nav li.current a {
+    background: #0090C5;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0.5em 0.5em   0.5em 0.5em;
+}
+
+
+.dropdown-menu li.current a {
+    background: #0090C5;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0em 0em   0em 0em;
+    padding-left:20px;
+}
+
+.navbar-right .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+.navbar-nav>li>.dropdown-menu {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .navbar-nav li.current a {
+        padding: 1em 1em   1em 1em;
+
+    }
+
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        color: #0090C5;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #0090C5;
+    }
+
+
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li.current a {
+        color: #fff;
+    }
+
+    .dropdown-menu {
+        background-color: #EAEAEA;
+        color: #fff;
+        display: none !important;
+    }
+
+    .open .dropdown-menu {
+        display: block !important;
+    }
+    section {
+        padding: 150px 0;
+    }
+
+}
